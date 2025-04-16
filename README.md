@@ -1,2 +1,66 @@
-# Libft
+# 📚 Libft - Ma bibliothèque standard en C
+
+Bienvenue dans ma version personnalisée de la Libc "Libft"
 Ce projet est le tout premier de la formation 42, et consiste à recréer un ensemble de fonctions de la bibliothèque standard du C, ainsi que quelques fonctions utilitaires et bonus comme les listes chaînées.
+
+---
+
+## ✅ Fonctions implémentées
+
+### Partie 1 - Fonctions Libc :
+- `ft_isalpha`, `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`
+- `ft_strlen`, `ft_memset`, `ft_bzero`, `ft_memcpy`, `ft_memmove`
+- `ft_strlcpy`, `ft_strlcat`, `ft_toupper`, `ft_tolower`
+- `ft_strchr`, `ft_strrchr`, `ft_strncmp`, `ft_memchr`, `ft_memcmp`
+- `ft_strnstr`, `ft_atoi`, `ft_calloc`, `ft_strdup`
+
+### Partie 2 - Fonctions supplémentaires :
+- `ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_split`, `ft_itoa`
+- `ft_strmapi`, `ft_striteri`, `ft_putchar_fd`, `ft_putstr_fd`
+- `ft_putendl_fd`, `ft_putnbr_fd`
+
+### Bonus - Listes chaînées :
+- `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`
+- `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`
+
+---
+
+## 🔧 Compilation Make
+
+make → compile "libft.a"
+
+make clean → supprime ".o"
+
+make fclean → supprime ".o" et "libft.a"
+
+## 🔧 Compilation Main
+
+cc main_libft.c -L. -lbsd -lft -I. && ./a.out
+
+---
+
+## Il couvre :
+
+les cas classiques
+
+les cas limites (NULL, overflow, overlap)
+
+les bonus
+
+la gestion mémoire (free, erreurs d’allocation...)
+
+---
+
+🔒 Norme-proof
+
+🧪 Testée de fond en comble
+
+🛠 Robuste même sur les cas tordus
+
+🎁 Bonus inclus
+
+---
+
+🏁 Objectif
+Libft est utilisée comme base pour tous les projets suivants :
+Elle remplace la LibC standard pour t'obliger à comprendre et maîtriser la gestion mémoire, les chaînes de caractères et les pointeurs.
