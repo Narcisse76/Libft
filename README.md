@@ -1,4 +1,6 @@
 # 📚 Libft - Ma bibliothèque standard en C
+![image](https://github.com/user-attachments/assets/c91ee182-e09c-42a2-81b2-d17e49a4bda2)
+
 
 Bienvenue dans ma version personnalisée de la Libc "Libft"
 Ce projet est le tout premier de la formation 42, et consiste à recréer un ensemble de fonctions de la bibliothèque standard du C, ainsi que quelques fonctions utilitaires et bonus comme les listes chaînées.
