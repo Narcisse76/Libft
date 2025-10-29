@@ -41,28 +41,6 @@ cc main_libft.c -L. -lbsd -lft -I. && ./a.out
 
 ---
 
-## Il couvre :
-
-les cas classiques
-
-les cas limites (NULL, overflow, overlap)
-
-les bonus
-
-la gestion mémoire (free, erreurs d’allocation...)
-
----
-
-🔒 Norme-proof
-
-🧪 Testée de fond en comble
-
-🛠 Robuste même sur les cas tordus
-
-🎁 Bonus inclus
-
----
-
 🏁 Objectif
 Libft est utilisée comme base pour tous les projets suivants :
 Elle remplace la LibC standard pour t'obliger à comprendre et maîtriser la gestion mémoire, les chaînes de caractères et les pointeurs.
