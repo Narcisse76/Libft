@@ -35,10 +35,6 @@ make clean → supprime ".o"
 
 make fclean → supprime ".o" et "libft.a"
 
-## 🔧 Compilation Main
-
-cc main_libft.c -L. -lbsd -lft -I. && ./a.out
-
 ---
 
 🏁 Objectif
