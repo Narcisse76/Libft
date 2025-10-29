@@ -37,13 +37,14 @@ make fclean → supprime ".o" et "libft.a"
 
 ---
 
-🧠 Ce qu’on y apprend
+## 🧠 Ce qu’on y apprend
 
 Comprendre en profondeur le fonctionnement interne du langage C, reconstruire les bases de la librairie standard, et apprendre à écrire du code propre, normé et robuste.
 Ce projet t’enseigne la gestion mémoire, la manipulation des pointeurs et des chaînes, et la rigueur algorithmique indispensable pour la suite de la formation 42.
 
 ---
 
-🏁 Objectif
+## 🏁 Objectif
+
 Libft est utilisée comme base pour tous les projets suivants :
 Elle remplace la LibC standard pour t'obliger à comprendre et maîtriser la gestion mémoire, les chaînes de caractères et les pointeurs.
